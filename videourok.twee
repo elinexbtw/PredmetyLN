@@ -32,6 +32,7 @@ videourok
 Делаем ключевое поле
 Нажимаем правой кнопкой мыши, на квадрат слева от того, где мы хотим сделать первичный ключ
 <left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/7.jpg?raw=true" ><left>
+<video src="https://i.imgur.com/JEbfHAP.mp4" style="position: fixed; bottom: 20px; left: 20px; z-index: 1001; width: 200px; height: 200px;" autoplay loop muted controls></video>
 И нажимаем на кнопку «Первичный ключ»
 Для стоимости «Стоимости работы» делаем «Число NUMERIC»
 Далее нажимаем «Поле формата»
@@ -129,4 +130,3 @@ videourok
 <left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/40.jpg?raw=true" ><left>
 Таким же образом, делаем кнопку, следующая запись.
 Готово.
-

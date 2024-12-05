@@ -1,0 +1,132 @@
+:: StoryTitle
+videourok
+
+
+:: StoryData
+{
+  "ifid": "5A3AEFA5-27DE-4C93-AEAB-68AD746B65A0",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Untitled Passage",
+  "zoom": 1
+}
+
+
+:: Untitled Passage {"position":"100,100","size":"100,100"}
+Создаем базу данных, нажимая на спец. кнопку:
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/2.jpg?raw=true
+" ><left>
+После нажимаем "Далее" и ставим все как на фото:
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/1.jpg?raw=true" ><left>
+И нажимаем готово.
+Дальше создаем таблицу через кнопку «Создать таблицу в режиме дизайна»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/21.jpg?raw=true" ><left>
+И заполняем ее на основе темы «Ремонт для компьютеров»
+Называем ее «Исполнители»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/4.jpg?raw=true" ><left>
+Где тип поля «Текст VARCHAR» ставим длину «30»
+Далее сохраняем, закрываем и открываем ее же, нажав два раза по таблице. И заполняем 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/5.jpg?raw=true" ><left>
+Далее создаем еще одну таблицу с название «Прайс-лист»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/6.jpg?raw=true" ><left>
+Делаем ключевое поле
+Нажимаем правой кнопкой мыши, на квадрат слева от того, где мы хотим сделать первичный ключ
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/7.jpg?raw=true" ><left>
+<video src="https://i.imgur.com/JEbfHAP.mp4" style="position: fixed; bottom: 20px; left: 20px; z-index: 1001; width: 200px; height: 200px;" autoplay loop muted controls></video>
+И нажимаем на кнопку «Первичный ключ»
+Для стоимости «Стоимости работы» делаем «Число NUMERIC»
+Далее нажимаем «Поле формата»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/8.jpg?raw=true" ><left>
+И там выбираем формат «Денежный» 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/9.jpg?raw=true" ><left>
+После сохраняем, открываем двойным нажатием и заполняем.
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/10.jpg?raw=true" ><left>
+Закрываем и сохраняем.
+Создаем таблицу «Клиенты»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/11.jpg?raw=true" ><left>
+Код клиента будем ключевым, для Телефона ставим число, и в «Поле формата» 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/8.jpg?raw=true" ><left>
+выбираем форму числовую, и в «Код формата» вставляем следующее « (000")"000"-"00"-"00 »
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/12.jpg?raw=true" ><left>
+Закрываем, сохраняем и открываем ее двойным нажатием.
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/13.jpg?raw=true" ><left>
+Для телефона у нас сделана маска, которую мы только что вписали, и нам не надо вписывать скобки и т. д. Просто вписываем номера телефона.
+Далее создаем таблицу «Заказы» 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/14.jpg?raw=true" ><left>
+Для даты нажимаем «Поле формата» 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/8.jpg?raw=true" ><left>
+и выбираем для нее нужную форму. 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/15.jpg?raw=true" ><left>
+Создаем еще одну таблицу «Состав табилцы» 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/16.jpg?raw=true" ><left>
+И делаем «Код заказа» и «Код работы» ключевыми, зажимая Ctrl и нажимаем по квадрату возле поля 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/17.jpg?raw=true" ><left>
+И выбираем «Первичный ключ»
+Сохраняем, открываем двойным нажатием, заполняем.
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/18.jpg?raw=true" ><left>
+Переходим по кнопке «Сервис» - «Связи», и добавляем все что есть 2ый нажатием, и размещаем как удобно. Далее что бы связать таблицы, надо ключевое поле совместить с другой таблицей. 
+Что у нас должно получиться.
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/41.jpg?raw=true" ><left>
+Далее нажимаем двойным нажатием на связь 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/20.jpg?raw=true" ><left>
+И в каждой ставим «Обновить каскадно», «Удалить каскадно». 
+Кроме связи которая идет от "Состав таблицы" к "Исполнители"
+В ней выставляем «Обновить каскадно» и «Установить NULL».
+Готово, теперь при изменение данных в одной таблице, они будут автоматически добавлять в другую таблицу, с которой они связаны.
+Переходим в кнопку «Формы»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/19.jpg?raw=true" ><left>
+И нажимаем на кнопку «Использовать мастер для создания формы»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/21.jpg?raw=true" ><left>
+На первом шаге мы выбираем ту таблицу, по которой мы будем делать форму. Выбираем таблицу исполнители. 
+И далее, нажимаем на кнопку ">>", и переносим все из «Доступные поля» в «Поля в форме»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/23.jpg?raw=true" ><left>
+Нажимаем Далее два раза, и мы можем выбрать любой вид нашей формы, для таблицы «Исполните» нам нужен 1 вид таблицы
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/24.jpg?raw=true" ><left>
+Нажимаем далее, нажимаем «Форма используется только для ввода данных»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/25.jpg?raw=true" ><left>
+На 7 шаге выбираем цвет, делаем любой который вам понравится, на 8 шаге задаем имя, но мы оставляем все как есть, и нажимаем готово.
+Используя данные кнопки, мы можем перемещаться по записям
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/26.jpg?raw=true" ><left>
+Что бы создать новую запись, нажимаем на данную кнопку, и создаем новую запись.
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/27.jpg?raw=true" ><left>
+Когда мы работаем и создаем записи, они автоматически создаются в таблицах, по которым созданы формы.
+Сохраняем, закрываем и создаем еще одну форму, по таблице Прайс-лист. Заполняем данным образом 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/28.jpg?raw=true" ><left>
+И переходим сразу на 5 шаг, и делаем форму табличной 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/29.jpg?raw=true" ><left>
+Далее на 7 шаге ставим цвет, к примеру серый. И готово.
+Вводим несколько записей в Прайс-лист. 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/30.jpg?raw=true" ><left>
+Далее закрываем и сохраняем. После открываем ее же двойным нажатием, и находим слева «Метку»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/43.jpg?raw=true" ><left>
+Создаем, по созданной метке нажимаем 2 раза. И вписываем «Прайс лист на ремонт компьютеров»  
+Что бы отцепить ее от края, надо нажать правой кнопкой мыши по метке, выбираем привязка, и выбираем «Привязка к странице» 
+После мы можем ее расположить как угодно. 
+Закрываем, сохраняем все измененные дынные. 
+А после нажимаем на кнопку «Создать форму в режиме дизайна...»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/31.jpg?raw=true" ><left>
+Далее что бы у нас стало активно «Свойства формы», создаем текстовое поле, и удаляем, потому что «Свойства формы» стало работать. Нажимаем на него, 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/32.jpg?raw=true" ><left>
+Переходим в раздел «Данные» и «Тип содержимого» ставим «Таблицы», а в «Содержимое» будет, клиенты.
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/33.jpg?raw=true" ><left>
+Что бы добавить поля, нам нужно нажать на кнопку «Добавить поле».
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/34.jpg?raw=true" ><left>
+После, перетаскиваем необходимые поля на форму, далее выделяем и переносим в место, где вы хотите что бы они располагались, что выровнить по определенному краю, выделяем все поля, и снизу нажимаем на данный инструмент. 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/35.jpg?raw=true" ><left>
+После, что бы уменьшить расстояние между Словом и полем, выделяем все поля, жмем правой кнопкой мыши, и выбираем пункт «Разгруппировать». 
+После нажимаем «Свойства элементов, ищем «Выравнивание» и ставим «По правому краю».
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/36.jpg?raw=true" ><left>
+После ищем «Шрифт» нажимаем 3 точки
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/45.jpg?raw=true" ><left>
+И там выбираем Стиль «Жирный», кегль 11пт
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/44.jpg?raw=true" ><left>
+Добавляем запись через метку, располагаем на форме, нажимаем два раза, переходим в свойства, и пишем в «Текст» - «Список клиентов»
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/38.jpg?raw=true" ><left>
+Выбираем шрифт, жирный, цвет по желанию и закрываем.
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/46.jpg?raw=true" ><left>
+Что добавить кнопку, по переходу по записям, выбираем слева Инструмент «Кнопка», 
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/42.jpg?raw=true" ><left>
+располагаем на форме 2 кнопки. Нажимаем 2 раза на одну их них, открываем и добавляем текст «Предыдущая кнопка» и делаем для нее любой желательный текст.
+<left><img src="https://github.com/elinexbtw/PredmetyLN/blob/main/40.jpg?raw=true" ><left>
+Таким же образом, делаем кнопку, следующая запись.
+Готово.
